@@ -70,24 +70,28 @@ button {
     border: 1px solid white;
     width: 300px;
     margin: 10px;
+    overflow: auto;
 }
 
 .humidity {
     border: 1px solid white;
     width: 300px;
     margin: 10px;
+    overflow: auto;
 }
 
 .Sunrise {
     border: 1px solid white;
     width: 300px;
     margin: 10px;
+    overflow: auto;
 }
 
 .Sunset {
     border: 1px solid white;
     width: 300px;
     margin: 10px;
+    overflow: auto;
 }
 
 .bi-search {
