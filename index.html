@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="container">
+        <h1 class="weat">WEATHER APP</h1>
+      <div class="flex-input">
+        <input type="text" placeholder="ENTER CITY" id="input" id="input"/>
+        <button onclick="search()"><i class="bi bi-search"></i></button>
+      </div>
+      <h1 class="wea" id="degree">°C</h1>
+      <h1 id="place">placeName</h1>
+      <div class="flex">
+        <div class="wind">
+          <h1>Wind</h1>
+          <i class="bi bi-water"></i>
+          <h1 class="wea" id="wind"></h1>
+        </div>
+        <div class="humidity">
+          <h1>Humidity</h1>
+          <i class="bi bi-droplet"></i>
+          <i class="bi bi-droplet"></i>
+          <h1 class="wea" id="humidity"></h1>
+        </div>
+      </div>
+      <div class="flex-1">
+        <div class="Sunrise">
+          <h1>Sunrise</h1>
+          <i class="bi bi-sunrise"></i>
+          <h1 class="wea" id="sunrise"></h1>
+        </div>
+        <div class="Sunset">
+          <h1>Sunset</h1>
+          <i class="bi bi-sunset"></i>
+          <h1 class="wea" id="sunset"></h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
